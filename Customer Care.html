@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Town Rides</title>
+        <link rel="stylesheet" href="styles.css">
+    </head><body>
+        <header>
+            <nav>3
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Search.html">Search</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Review.html">Review</a></li>
+                    <li><a href="Customer Login.html">Customer Login</a></li>
+                    <li><a href="Employee Login.html">Employee Login</a></li>
+                    <li><a href="Customer Care.html">Customer Care</a></li>
+                    <li><a href="Ratings.html">Ratings</a></li>
+                    <li><a href="Insurance.html">Insurance</a></li>
+                </ul>
+            </nav>
+        </header>
+<head>
+
+<style> body { background-color: #f2f2f2; font-family: Arial, sans-serif; } .customer-care { width: 80%; margin: auto; background-color: #fff; padding: 20px; border-radius: 10px; } h2 { text-align: center; margin-bottom: 20px; } button { background-color: #008CBA; color: white; padding: 10px 20px; border: none; cursor: pointer; text-align: center; display: inline-block; font-size: 16px; margin: 4px 2px; transition-duration: 0.4s; } button:hover { background-color: #007B9A; color: white; } button:disabled { background-color: #ccc; color: #666; cursor: not-allowed; } </style> <body> <div class="customer-care"> <h2>Customer Care</h2> <p>If you need help, you can contact our customer care department by phone, email, or postal mail. Please find the contact details below:</p>
+    Copy code
+    <p><strong>Phone:</strong> <span id="phone"></span></p>
+    <p><strong>Email:</strong> <a href="mailto:teamswag@customercare.com">teamswag@customercare.com</a></p>
+    <p><strong>Address:</strong> 6-9/420, DLF St, Hyderabad , India</p>
+    
+    <button id="getPhone" onclick="getPhoneNumber()">Get a Phone Number</button>
+    </div> <script> let phoneNumber; function getPhoneNumber() { const phone = document.getElementById('phone'); const getPhoneButton = document.getElementById('getPhone'); if (phoneNumber === undefined) { phoneNumber = Math.floor(Math.random() * 10000000000); phone.innerHTML = phoneNumber; getPhoneButton.disabled = true; } } </script> </body> <html>

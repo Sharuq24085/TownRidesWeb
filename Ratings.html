@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEB CONNECT</title>
+        <link rel="stylesheet" href="styles.css">
+    </head><body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Search.html">Search</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Review.html">Review</a></li>
+                    <li><a href="Customer Login.html">Customer Login</a></li>
+                    <li><a href="Employee Login.html">Employee Login</a></li>
+                    <li><a href="Customer Care.html">Customer Care</a></li>
+                    <li><a href="Ratings.html">Ratings</a></li>
+                    <li><a href="Insurance.html">Insurance</a></li>
+                </ul>
+            </nav>
+        </header>
+<head>
+    <style> 
+    .rating { unicode-bidi: bidi-override; direction: rtl; text-align: center; }
+        .rating > label { display: inline-block; position: relative; width: 1.1em; cursor: pointer; }
+        
+        .rating > label:hover, .rating > label:hover ~ label, .rating > input:checked ~ label { color: #e6e6e6; }
+        
+        .rating > input { display: none; }
+        
+        .rating > label:hover:before, .rating > label:hover ~ label:before, .rating > input:checked ~ label:before { content: "\2605"; position: absolute; left: 0; } </style>
+        
+        </head> <body> <h2>Transportation Service Ratings</h2> <form> <fieldset class="rating"> <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label> <input type="radio" id="star4half" name="rating" value="4.5" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label> <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label> <input type="radio" id="star3half" name="rating" value="3.5" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label> <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label> <input type="radio" id="star2half" name="rating" value="2.5" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label> <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label> <input type="radio" id="star1half" name="rating" value="1.5" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label> <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label> <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label> </fieldset>
+        <label for="comments">Comments:</label><br>
+        
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br> <input type="submit" value="Submit"> </form> </body> </html>
+        
+        
+         

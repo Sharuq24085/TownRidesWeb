@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB CONNECT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Search.html">Search</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Review.html">Review</a></li>
+                <li><a href="Customer Login.html">Customer Login</a></li>
+                <li><a href="Employee Login.html">Employee Login</a></li>
+                <li><a href="Customer Care.html">Customer Care</a></li>
+                    <li><a href="Ratings.html">Ratings</a></li>
+                    <li><a href="Insurance.html">Insurance</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search">
+            <h1>Search for Vehicles</h1>
+            <form>
+                <label for="pickup">Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup" required>
+
+                <label for="dropoff">Drop-off Location:</label>
+                <input type="text" id="dropoff" name="dropoff" required>
+
+                <label for="date">Pickup Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="vehicle">Vehicle Type:</label>
+                <select id="vehicle" name="vehicle" required>
+                    <option value="car">Car</option>
+                    <option value="van">Van</option>
+                    <option value="bus">Bus</option>
+                    <option value="auto">Auto</option>
+                    <option value="Bike">Bike</option>
+                </select>
+
+                <button type="submit">Search Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 WEB CONNECT. All rights reserved.</p>
+    </footer>
+</body>
+</html>

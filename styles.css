@@ -1,0 +1,68 @@
+body {
+    margin: 0%;
+    background-image: url('https://th.bing.com/th/id/OIG.6CASYVg.6G5H2pGvmM9g?w=1024&h=1024&rs=1&pid=ImgDetMain');
+    
+   
+    background-size:cover;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 05;
+    padding: 0;
+}
+
+header {
+    background-color: #82dadd;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5; 
+    padding: 5;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    text-align: "none";
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.booking {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #4ec2c2;
+    background-color: #99cad1;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
